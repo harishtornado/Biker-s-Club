@@ -8,8 +8,8 @@ const CartProvider = ({ children }) => {
       mode="payment"
       cartMode="client-only"
       stripe={process.env.NEXT_PUBLIC_STRIPE_KEY}
-      successUrl="https://bikersclub1.netlify.app//stripe/success"
-      cancelUrl="https://bikersclub1.netlify.app//stripe/error"
+      successUrl="https://bikersclub1.netlify.app/stripe/success"
+      cancelUrl="https://bikersclub1.netlify.app/stripe/error"
       language="en-IN"
       currency="INR"
       billingAddressCollection={true}
